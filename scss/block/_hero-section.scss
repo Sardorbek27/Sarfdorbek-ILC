@@ -21,7 +21,6 @@
     width: 547px;
 }
 .hero__link {
-    width: 100%;
     display: inline-block;
     transition: opacity 0.4s linear;
     @include button($width:268px);
@@ -106,6 +105,9 @@
     .hero__service-item:nth-child(2) > .hero__service-wrap,  .hero__service-item:nth-child(3) > .hero__service-wrap{
         width: 100%;
     }
+    .hero__link {
+        width: 100%;
+    }
 }
 @media (max-width:500px){
     .hero-top{
@@ -119,5 +121,8 @@
     }
     .hero__text-wrapper{
         margin-bottom: 16px;
+    }
+    .hero__link {
+        width: 100%;
     }
 }
