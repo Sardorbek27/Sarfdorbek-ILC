@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* roboto-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -697,4 +698,136 @@ template {
   .hero__text-wrapper {
     margin-bottom: 16px;
   }
+}
+.online-team {
+  display: flex;
+  align-items: center;
+  justify-content: none;
+  flex-direction: row;
+}
+
+.content__logo-img {
+  width: 83px;
+  height: 59px;
+  align-items: start;
+}
+
+.content__tytle {
+  width: 438px;
+  color: #303030;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.content__text {
+  width: 406px;
+  height: 81px;
+  color: #404040;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.online-team__cube-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 176px;
+}
+
+.cube__first {
+  border: 2px solid;
+  width: 333px;
+  height: 156px;
+  display: flex;
+}
+
+.cube__second {
+  border: 2px solid;
+  width: 333px;
+  height: 171px;
+  display: flex;
+  align-items: end;
+}
+
+.cube__img-100::after {
+  background-image: url("../images/100+тыс.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.cube__img-15::after {
+  background-image: url("../images/15+лет.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.fteen {
+  margin-left: 25px;
+  margin-right: 13px;
+}
+
+.fty {
+  margin-right: 23px;
+  margin-left: 40px;
+}
+
+.text__item0 {
+  width: 179px;
+  height: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.cube__text {
+  width: 128px;
+  height: 40px;
+  color: #303030;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  align-items: center;
+}
+
+.text__item1 {
+  width: 217px;
+  height: 156px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.cube__text1 {
+  width: 156px;
+  height: 38px;
+  color: #303030;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.text__item4 {
+  width: 192px;
+  height: 171px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.cube__text4 {
+  width: 128px;
+  height: 60px;
+  color: #303030;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }/*# sourceMappingURL=main.css.map */

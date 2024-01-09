@@ -21,6 +21,7 @@
     width: 547px;
 }
 .hero__link {
+    width: 100%;
     display: inline-block;
     transition: opacity 0.4s linear;
     @include button($width:268px);

@@ -1,0 +1,90 @@
+.online-section {
+}
+.online-team {
+    @include display($space:none);
+}
+.content__logo-img {
+    width: 83px;
+    height: 59px;
+    align-items: start;
+}
+.content__tytle {
+    width: 438px;
+    @include textStyle($lineHeight:44px, $fontWeight:700, $fontSize:32px);
+}
+.content__text {
+    width: 406px;
+    height: 81px;
+    @include textStyle($color:#404040, $fontSize:14px);
+}
+.online-team__cube-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 176px;
+}
+.cube__first {
+    border: 2px solid;
+    width: 333px;
+    height: 156px;
+    display: flex;
+}
+.cube__second {
+    border: 2px solid;
+    width: 333px;
+    height: 171px;
+    display: flex;
+    align-items: end;
+}
+
+
+.cube__img-100::after {
+    background-image: url("../images/100+тыс.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cube__img-15::after {
+    background-image: url("../images/15+лет.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fteen {
+    margin-left: 25px;
+    margin-right: 13px;
+}
+.fty {
+    margin-right: 23px;
+    margin-left: 40px;
+}
+
+.text__item0 {
+    width: 179px;
+    height: 135px;
+    @include display();
+}
+.cube__text {
+    width: 128px;
+    height: 40px;
+    @include textStyle();
+    align-items: center;
+}
+.text__item1 {
+    width: 217px;
+    height: 156px;
+    @include display();
+}
+.cube__text1 {
+    width: 156px;
+    height: 38px;
+    @include textStyle();
+}
+.text__item4 {
+    width: 192px;
+    height: 171px;
+    @include display();
+}
+.cube__text4 {
+    width: 128px;
+    height: 60px;
+    @include textStyle();
+}
